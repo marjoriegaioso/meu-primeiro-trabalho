@@ -14,3 +14,20 @@
 <button [disabled] = "botaoDesligado"> botão </button>
 
 <img [src] = "imgSrc">
+
+<br>
+<br>
+<hr>
+
+<h2> Event binging</h2>
+<button (click)="alertaInfo($event)">Evento</button>
+
+
+<div (mousemove)="mouseMoveTeste($event)"style="background: red; width: 300px; height: 300px;"></div>
+
+{{position.x}} - {{position.y}}
+<br> 
+<br>
+
+<hr>
+
