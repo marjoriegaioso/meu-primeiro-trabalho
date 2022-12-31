@@ -18,7 +18,7 @@ import { InputComponent } from './shared/input/input.component';
     DataBidingComponent,
     DiretivasEstruturaisComponent,
     DiretivasAtributosComponent,
-    InputComponent
+    
   ],
   imports: [
     BrowserModule,
