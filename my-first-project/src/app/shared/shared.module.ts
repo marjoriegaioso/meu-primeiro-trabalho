@@ -4,7 +4,7 @@ import { NewComponentComponent } from './new-component/new-component.component';
 
 
 @NgModule({
-  declarations: [NewComponentComponent, InputComponent],
+  declarations: [NewComponentComponent],
   exports: [NewComponentComponent],
   imports: [
     CommonModule

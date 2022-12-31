@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
     <button (click)="destruirComponent()">Destruir componente</button>
   --> 
   <!-- app-diretivas-estruturais></app-diretivas-estruturais> -->
+  
   <!--
    <app-diretivas-atributos>
     <h1> Aula de Diretivas Atributos</h1>
@@ -20,9 +21,11 @@ import { Component, OnInit } from '@angular/core';
     <h3> Bird </h3>
   </app-diretivas-atributos>
   <router-outlet></router-outlet>
-  <app-diretivas-atributos></app-diretivas-atributos> -->
+  <app-diretivas-atributos></app-diretivas-atributos> 
   
-  <app-new-component></app-new-component>
+  <app-new-component></app-new-component> 
+  -->
+  
   <router-outlet></router-outlet>
   `
 })
